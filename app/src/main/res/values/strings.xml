@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Drawer_Jetpack_Navigation_Component_Multiple_Layouts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_animal">Animals</string>
+    <string name="title_random_joke">Random Joke</string>
+    <string name="title_cat_fact">About Cats</string>
+    <string name="title_news_details">News Details</string>
+
+</resources>

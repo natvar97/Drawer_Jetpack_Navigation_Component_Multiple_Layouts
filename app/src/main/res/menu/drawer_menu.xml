@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/icon_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/animalFragment"
+        android:icon="@drawable/icon_animal"
+        android:title="@string/title_animal" />
+
+    <item
+        android:id="@+id/randomJokeFragment"
+        android:icon="@drawable/icon_jokes"
+        android:title="@string/title_random_joke" />
+
+    <item
+        android:id="@+id/catFactFragment"
+        android:icon="@drawable/icon_cat"
+        android:title="@string/title_cat_fact" />
+
+</menu>

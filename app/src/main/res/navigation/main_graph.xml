@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.indialone.drawer_jetpack_navigation_component_multiple_layouts.fragments.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <argument
+            android:name="news"
+            app:argType="com.indialone.drawer_jetpack_navigation_component_multiple_layouts.model.news.ArticlesItem" />
+        <action
+            android:id="@+id/action_homeFragment_to_fragmentNewsDetails"
+            app:destination="@id/fragmentNewsDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/animalFragment"
+        android:name="com.indialone.drawer_jetpack_navigation_component_multiple_layouts.fragments.AnimalFragment"
+        android:label="@string/title_animal"
+        tools:layout="@layout/fragment_animal" />
+    <fragment
+        android:id="@+id/randomJokeFragment"
+        android:name="com.indialone.drawer_jetpack_navigation_component_multiple_layouts.fragments.RandomJokeFragment"
+        android:label="@string/title_random_joke" />
+    <fragment
+        android:id="@+id/catFactFragment"
+        android:name="com.indialone.drawer_jetpack_navigation_component_multiple_layouts.fragments.CatFactFragment"
+        android:label="@string/title_cat_fact" />
+    <fragment
+        android:id="@+id/fragmentNewsDetails"
+        android:name="com.indialone.drawer_jetpack_navigation_component_multiple_layouts.fragments.FragmentNewsDetails"
+        android:label="@string/title_news_details" />
+</navigation>
